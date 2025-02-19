@@ -24,11 +24,14 @@ public class BaseController : MonoBehaviour
 
     //애니메이션
     protected AnimationHandler animationHandler;
+    //능력치
+    protected StatHandler statHandler;
 
     protected virtual void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         animationHandler = GetComponent<AnimationHandler>();
+        statHandler = GetComponent<StatHandler>();
     }
 
 
@@ -56,7 +59,7 @@ public class BaseController : MonoBehaviour
 
     private void Movement(Vector2 dir)
     {
-        dir = dir * 5;
+        dir = dir * statHandler.Speed;
 
         //넉백 적용
         if(knockbackDuration > 0.0f)
@@ -67,6 +70,7 @@ public class BaseController : MonoBehaviour
         }
 
         _rigidbody.velocity = dir;
+        // 
         animationHandler.Move(dir);
     }
 
