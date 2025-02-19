@@ -46,7 +46,7 @@ public class BaseController : MonoBehaviour
         Rotate(lookDir);
     }
 
-    protected void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         Movement(MoveDir);
 
@@ -69,8 +69,13 @@ public class BaseController : MonoBehaviour
             dir += knockback;
         }
 
-        _rigidbody.velocity += dir;
-        // 
+        _rigidbody.AddForce(dir, ForceMode2D.Impulse);
+
+        if (_rigidbody.velocity.x > statHandler.Speed)
+            _rigidbody.velocity = new Vector2(statHandler.Speed, _rigidbody.velocity.y);
+        else if(_rigidbody.velocity.x < -statHandler.Speed)
+            _rigidbody.velocity = new Vector2(-statHandler.Speed, _rigidbody.velocity.y);
+
         animationHandler.Move(dir);
     }
 
