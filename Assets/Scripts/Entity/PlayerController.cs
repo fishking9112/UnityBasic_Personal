@@ -58,7 +58,7 @@ public class PlayerController : BaseController
         lookDir = (worldPos - (Vector2)transform.position);
 
         // 예외처리
-        // 0.9보다 큰 벡터일 경우 ??
+        // 0.9보다 작은 벡터일 경우 ??
         if(lookDir.magnitude < 0.9f)
         {
             lookDir = Vector2.zero;
