@@ -69,7 +69,7 @@ public class BaseController : MonoBehaviour
             dir += knockback;
         }
 
-        _rigidbody.velocity = dir;
+        _rigidbody.velocity += dir;
         // 
         animationHandler.Move(dir);
     }
