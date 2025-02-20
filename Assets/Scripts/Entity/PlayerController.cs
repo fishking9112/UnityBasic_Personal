@@ -72,7 +72,7 @@ public class PlayerController : BaseController
     {
         if(Input.GetButtonDown("Jump"))
         {
-            Debug.Log("Jump");
+            //Debug.Log("Jump");
             if(animationHandler.Anim.GetBool("IsJump") == false )
             {
                 _rigidbody.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
@@ -95,6 +95,16 @@ public class PlayerController : BaseController
                     animationHandler.Jump(false);
                 }    
             }
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Triggered: " + collision.name);
+
+        if (collision.CompareTag("DungeonEnter"))
+        {
+            Debug.Log("던전 입장 !");
         }
     }
 }
