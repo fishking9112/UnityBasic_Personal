@@ -1,8 +1,8 @@
-TIL Link :: https://tricky-pansy-0ee.notion.site/2025-02-20-1a06ed9f4def80e29ed4d5bcd38bd9e4
+![움짤1](https://github.com/user-attachments/assets/b5237bbb-5722-4f90-89f0-6cdf09684d85)TIL Link :: https://tricky-pansy-0ee.notion.site/2025-02-20-1a06ed9f4def80e29ed4d5bcd38bd9e4
 
 ## 맵 타일 + 오브젝트 구성
 
-![image.png](attachment:6911f5ad-f8b3-4231-bd4f-c177e8c805c7:image.png)
+![Image](https://github.com/user-attachments/assets/aadf92b7-0a45-4b84-9ceb-9173c69fba13)
 
 바닥은 타일맵으로 , 그 위에 상호작용(충돌) 할 수 있는 오브젝트를 두었습니다.
 
@@ -38,7 +38,7 @@ Vector3.Lerp를 사용. 멀어지면 빠르게 쫒아오고 , 가까울때는 �
 
 플레이어에서 바닥 방향으로 Ray를 쏴서 충돌검사 하며 해결 완료.
 
-![image.png](attachment:8ed193a8-48a6-4695-9b59-5be12166fe1d:image.png)
+![Image](https://github.com/user-attachments/assets/d0da9688-ef40-4241-b548-a454ecdde025)
 
 (빨간색 실선이 Ray의 길이와 방향)
 
@@ -88,7 +88,7 @@ X축 이동 과 Z축 회전을 막아주고,
 
 ## 2D에서 배경 원근감
 
-![움짤1.gif](attachment:7a401f40-d69f-4c1f-a164-782db0afb186:움짤1.gif)
+![Image](https://github.com/user-attachments/assets/21086fc3-1e5e-4516-a522-d2c8f51c4d4c)
 
 횡스크롤 게임에는 Z축이 없어 평면적인 느낌만 있기 때문에,
 
@@ -104,7 +104,7 @@ X축 이동 과 Z축 회전을 막아주고,
 
 ## 로고 씬 추가Logo
 
-![image.png](attachment:6efa407d-6cd4-422c-aa9c-6f3e567ea576:image.png)
+![Image](https://github.com/user-attachments/assets/27aa2e3d-6eef-4cee-881a-136a4b324aa2)
 
 씬에서 게임시작 버튼을 누르면 게임이 진행되도록 Scene추가,
 
