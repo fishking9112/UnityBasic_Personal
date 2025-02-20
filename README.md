@@ -1,4 +1,6 @@
-![움짤1](https://github.com/user-attachments/assets/b5237bbb-5722-4f90-89f0-6cdf09684d85)TIL Link :: https://tricky-pansy-0ee.notion.site/2025-02-20-1a06ed9f4def80e29ed4d5bcd38bd9e4
+Link :: https://tricky-pansy-0ee.notion.site/2025-02-20-1a06ed9f4def80e29ed4d5bcd38bd9e4
+
+![움짤1](https://github.com/user-attachments/assets/b5237bbb-5722-4f90-89f0-6cdf09684d85)TIL 
 
 ## 맵 타일 + 오브젝트 구성
 
