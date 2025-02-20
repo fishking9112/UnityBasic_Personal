@@ -7635,6 +7635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716624403}
   - component: {fileID: 716624404}
+  - component: {fileID: 716624405}
   m_Layer: 0
   m_Name: TownLayer (2)
   m_TagString: Untagged
@@ -7651,7 +7652,7 @@ Transform:
   m_GameObject: {fileID: 716624402}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5200005, y: 14.65, z: 0}
+  m_LocalPosition: {x: 1.5200005, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7709,6 +7710,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &716624405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716624402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 9
 --- !u!1 &736165697
 GameObject:
   m_ObjectHideFlags: 0
@@ -7719,6 +7733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 736165698}
   - component: {fileID: 736165699}
+  - component: {fileID: 736165700}
   m_Layer: 0
   m_Name: TownLayer
   m_TagString: Untagged
@@ -7735,7 +7750,7 @@ Transform:
   m_GameObject: {fileID: 736165697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.48, y: 14.65, z: 0}
+  m_LocalPosition: {x: -38.48, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7793,6 +7808,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &736165700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736165697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 9
 --- !u!1 &781265845
 GameObject:
   m_ObjectHideFlags: 0
@@ -7822,6 +7850,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1450487400}
   - {fileID: 1239500127}
   - {fileID: 1309948326}
   - {fileID: 2106658313}
@@ -7832,7 +7861,6 @@ Transform:
   - {fileID: 716624403}
   - {fileID: 2121273361}
   - {fileID: 1219928712}
-  - {fileID: 1450487400}
   m_Father: {fileID: 1500924422}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1128540104
@@ -7929,6 +7957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1219928712}
   - component: {fileID: 1219928713}
+  - component: {fileID: 1219928714}
   m_Layer: 0
   m_Name: TownLayer (4)
   m_TagString: Untagged
@@ -7945,7 +7974,7 @@ Transform:
   m_GameObject: {fileID: 1219928711}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.52, y: 14.65, z: 0}
+  m_LocalPosition: {x: 41.52, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8003,6 +8032,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1219928714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219928711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 9
 --- !u!1 &1238692928
 GameObject:
   m_ObjectHideFlags: 0
@@ -8013,6 +8055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238692929}
   - component: {fileID: 1238692930}
+  - component: {fileID: 1238692931}
   m_Layer: 0
   m_Name: TownBG (3)
   m_TagString: Untagged
@@ -8029,7 +8072,7 @@ Transform:
   m_GameObject: {fileID: 1238692928}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.349998, y: 24.21, z: 0}
+  m_LocalPosition: {x: 15.57, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8087,6 +8130,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1238692931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238692928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 2
 --- !u!1 &1239500126
 GameObject:
   m_ObjectHideFlags: 0
@@ -8097,6 +8153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1239500127}
   - component: {fileID: 1239500128}
+  - component: {fileID: 1239500129}
   m_Layer: 0
   m_Name: TownBG
   m_TagString: Untagged
@@ -8113,7 +8170,7 @@ Transform:
   m_GameObject: {fileID: 1239500126}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.65, y: 24.21, z: 0}
+  m_LocalPosition: {x: -44.43, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8171,6 +8228,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1239500129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239500126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 2
 --- !u!1 &1309948325
 GameObject:
   m_ObjectHideFlags: 0
@@ -8181,6 +8251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309948326}
   - component: {fileID: 1309948327}
+  - component: {fileID: 1309948328}
   m_Layer: 0
   m_Name: TownBG (1)
   m_TagString: Untagged
@@ -8197,7 +8268,7 @@ Transform:
   m_GameObject: {fileID: 1309948325}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.650002, y: 24.21, z: 0}
+  m_LocalPosition: {x: -24.43, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8255,6 +8326,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1309948328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309948325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 2
 --- !u!1 &1324430268
 GameObject:
   m_ObjectHideFlags: 0
@@ -8404,6 +8488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1433311934}
   - component: {fileID: 1433311935}
+  - component: {fileID: 1433311936}
   m_Layer: 0
   m_Name: TownBG (4)
   m_TagString: Untagged
@@ -8420,7 +8505,7 @@ Transform:
   m_GameObject: {fileID: 1433311933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.35, y: 24.21, z: 0}
+  m_LocalPosition: {x: 35.57, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8478,6 +8563,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1433311936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433311933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 2
 --- !u!1 &1447021979
 GameObject:
   m_ObjectHideFlags: 0
@@ -8488,6 +8586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447021980}
   - component: {fileID: 1447021981}
+  - component: {fileID: 1447021982}
   m_Layer: 0
   m_Name: TownLayer (1)
   m_TagString: Untagged
@@ -8504,7 +8603,7 @@ Transform:
   m_GameObject: {fileID: 1447021979}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.48, y: 14.65, z: 0}
+  m_LocalPosition: {x: -18.48, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8562,6 +8661,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1447021982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447021979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 9
 --- !u!1 &1450487399
 GameObject:
   m_ObjectHideFlags: 0
@@ -8607,7 +8719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ratio: 0
+  ratio: 1
 --- !u!212 &1450487402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10333,6 +10445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106658313}
   - component: {fileID: 2106658314}
+  - component: {fileID: 2106658315}
   m_Layer: 0
   m_Name: TownBG (2)
   m_TagString: Untagged
@@ -10349,7 +10462,7 @@ Transform:
   m_GameObject: {fileID: 2106658312}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3499985, y: 24.21, z: 0}
+  m_LocalPosition: {x: -4.4300003, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10407,6 +10520,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2106658315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106658312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 2
 --- !u!1 &2121273360
 GameObject:
   m_ObjectHideFlags: 0
@@ -10417,6 +10543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2121273361}
   - component: {fileID: 2121273362}
+  - component: {fileID: 2121273363}
   m_Layer: 0
   m_Name: TownLayer (3)
   m_TagString: Untagged
@@ -10433,7 +10560,7 @@ Transform:
   m_GameObject: {fileID: 2121273360}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.52, y: 14.65, z: 0}
+  m_LocalPosition: {x: 21.52, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10491,6 +10618,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2121273363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121273360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba83c7bf8301a943b7aad69f9545eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: 9
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
