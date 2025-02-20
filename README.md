@@ -1,3 +1,5 @@
+TIL Link :: https://tricky-pansy-0ee.notion.site/2025-02-20-1a06ed9f4def80e29ed4d5bcd38bd9e4
+
 ## 맵 타일 + 오브젝트 구성
 
 ![image.png](attachment:6911f5ad-f8b3-4231-bd4f-c177e8c805c7:image.png)
